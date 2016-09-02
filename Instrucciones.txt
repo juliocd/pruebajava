@@ -1,0 +1,12 @@
+Julio Cesar Diaz
+Proyecto Java llamado sistemadenotas
+http://localhost:8080/sistemadenotas
+
+Proyecto configurado para ejecutar en tomcat y con una interfaz simple.
+Se debe configurar conexion a base de datos, crear tablas y agregar datos, 
+para lo cual se adjuntan los correspondientes archivo.
+
+El sistema permite:
+-Consultar cursos de estudiante
+-Matricular estudiante a un curso
+-Eliminar estudiante de un curso

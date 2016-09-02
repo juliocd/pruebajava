@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Consultar cursos</title>
+		<script type="text/javascript" src="./resources/scripts/libs/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="./resources/scripts/libs/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="./resources/scripts/views/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="./resources/styles/jquery.dataTables.min.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="./resources/styles/index.css" media="screen" />
+	</head>
+	<body>
+		<div>
+			<label>Estudiantes:</label>
+			<select id="studentsSelect">
+				<option value="0">Seleccione un estudiante</option>
+			</select>
+		</div>
+		<div>
+			<label>Cursos de estudiante</label>
+			<table id="coursesTable"></table>
+		</div>
+		<div>
+			<button id="changeScore">Modificar nota</button>
+			<div class="ContentChangeScore HiddenElement">
+				<label>Ingersar nota</label>
+				<input id="newScore" type="number" max="5" min="0"></input>
+				<button id="saveScore">Guardar Nota</button>
+				<button id="notSaveScore">Cancelar</button>
+			</div>
+		</div>
+		<div>
+			<button id="addCourse">Agregar Curso</button>
+			<div class="ContentCoursesSelect HiddenElement">
+				<label>Cursos:</label>
+				<select id="coursesSelect">
+					<option value="0">Seleccione un curso</option>
+				</select>
+				<button id="saveCourse">Matricular Curso</button>
+				<button id="notSaveCourse">Cancelar</button>
+			</div>
+		</div>
+		<div>
+			<button id="delteCourse">Eliminar Curso</button>
+		</div>
+	</body>
+	
+</html>

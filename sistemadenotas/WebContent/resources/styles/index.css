@@ -1,0 +1,9 @@
+.HiddenElement{
+	display:none;
+}
+.ShowElement{
+	display:block;
+}
+#newScore{
+	width:50px;
+}
